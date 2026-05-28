@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Container for books */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Book cards */
+.book {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 220px;
+    margin: 15px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.book:hover {
+    transform: scale(1.05);
+    background-color: #eaeaea;
+}
+
+/* Images */
+.book img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkred;
+}
+
+/* Forms */
+form {
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Reviews box */
+#reviews {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+    text-align: left;
+}
